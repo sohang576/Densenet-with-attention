@@ -21,12 +21,24 @@ We use the **NEU Surface Defect Database**, available on Kaggle:
 - Each class has 300 images  
 
 Classes included:  
-- Crazing (Cr)  
-- Inclusion (In)  
-- Patches (Pa)  
-- Pitted Surface (PS)  
-- Rolled-in Scale (RS)  
+- Crazing (Cr)
+  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/d2896b74-c05c-4e08-9e8a-75cffecb90f0" />
+
+- Inclusion (In)
+  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/03e753aa-8beb-4fe0-9293-af23bb0a99d5" />
+
+- Patches (Pa)
+  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/2d474e6c-05d3-42ff-b8b0-24877d16dbab" />
+
+- Pitted Surface (PS)
+  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/a684b527-8914-4ad7-bef7-4af9878858b0" />
+
+- Rolled-in Scale (RS)
+  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/ace2b060-cb42-490f-bd23-d9e2f650186b" />
+ 
 - Scratches (Sc)  
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/9ab691ce-40b1-40b2-b47f-cca63822306d" />
+
 
 We split the dataset into training, validation, and test sets. Images were resized, normalized, and augmented where needed.
 
@@ -101,5 +113,3 @@ After training, models are saved as:
 You can reload the saved models and test them on new images. Upload an image and the model will predict one of the six defect classes.
 
 ---
-
-## 7. Repository Structure
